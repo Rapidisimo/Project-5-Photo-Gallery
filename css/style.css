@@ -51,8 +51,15 @@ table {
 
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
+
+nav {
+    max-width: 876px;
+    margin: 1.2em auto;
+    text-align: center;
+}
 
 main {
     margin: 0 auto;
@@ -68,6 +75,20 @@ main {
         'col-1 col-2 col-3 col-4';
     gap: 1em;
 }
+
+
+input[type="search"] {
+    padding: 1em;
+    border-radius: 5px;
+    border: solid 1px rgb(161, 161, 161);
+}
+
+input,
+input::placeholder {
+    color: rgb(64, 67, 70);
+    font: .9em "Roboto", sans-serif;
+}
+
 
 /* testing */
 /* a > img:only-child {
