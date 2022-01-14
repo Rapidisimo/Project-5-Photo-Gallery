@@ -14,57 +14,49 @@
 </head>
 <body>
     <nav>
-        <input type="search" id="site-search" name="picture-search" aria-label="Search through photo gallery" size="60" placeholder="Search">
+        <input type="search" id="searchbox" name="search" onkeyup="liveSearch()" aria-label="Search through photo gallery" size="60" placeholder="Search">
     </nav>
     <main>
         <div class="gallery gallery-layout">
-            <a href="images/01.jpg" data-caption="Image caption">
-                <img src="images/thumbnails/01.jpg" alt="First image" class="col-1">
+            <a href="images/01.jpg" data-caption="Uno">
+                <img src="images/thumbnails/01.jpg" alt="First image">
             </a>
-            <a href="images/02.jpg" data-caption="Image caption 2">
-                <img src="images/thumbnails/02.jpg" alt="Second image" class="col-2">
+            <a href="images/02.jpg" data-caption="Dos">
+                <img src="images/thumbnails/02.jpg" alt="Second image">
             </a>
-            <a href="images/03.jpg" data-caption="Image caption 3">
-                <img src="images/thumbnails/03.jpg" alt="Third image" class="col-3">
+            <a href="images/03.jpg" data-caption="Tres">
+                <img src="images/thumbnails/03.jpg" alt="Third image">
             </a>
-            <a href="images/04.jpg" data-caption="Image caption 4">
-                <img src="images/thumbnails/04.jpg" alt="Fourth Image" class="col-4">
+            <a href="images/04.jpg" data-caption="Cuatro">
+                <img src="images/thumbnails/04.jpg" alt="Fourth Image">
             </a>
-            <a href="images/05.jpg" data-caption="Image caption 5">
-                <img src="images/thumbnails/05.jpg" alt="Fifth image" class="col-1">
+            <a href="images/05.jpg" data-caption="Cinco">
+                <img src="images/thumbnails/05.jpg" alt="Fifth image">
             </a>
-            <a href="images/06.jpg" data-caption="Image caption 6">
-                <img src="images/thumbnails/06.jpg" alt="Sixth image" class="col-2">
+            <a href="images/06.jpg" data-caption="Seis">
+                <img src="images/thumbnails/06.jpg" alt="Sixth image">
             </a>
-            <a href="images/07.jpg" data-caption="Image caption 7">
-                <img src="images/thumbnails/07.jpg" alt="Seventh image" class="col-3">
+            <a href="images/07.jpg" data-caption="Siete">
+                <img src="images/thumbnails/07.jpg" alt="Seventh image">
             </a>
-            <a href="images/08.jpg" data-caption="Image caption 8">
-                <img src="images/thumbnails/08.jpg" alt="Eighth Image" class="col-4">
+            <a href="images/08.jpg" data-caption="Ocho">
+                <img src="images/thumbnails/08.jpg" alt="Eighth Image">
             </a>
-            <a href="images/09.jpg" data-caption="Image caption 9">
-                <img src="images/thumbnails/09.jpg" alt="Nineth Image" class="col-1">
+            <a href="images/09.jpg" data-caption="Nueve">
+                <img src="images/thumbnails/09.jpg" alt="Nineth Image">
             </a>
-            <a href="images/10.jpg" data-caption="Image caption 10">
-                <img src="images/thumbnails/10.jpg" alt="Tenth image" class="col-2">
+            <a href="images/10.jpg" data-caption="Dies">
+                <img src="images/thumbnails/10.jpg" alt="Tenth image">
             </a>
-            <a href="images/11.jpg" data-caption="Image caption 11">
-                <img src="images/thumbnails/11.jpg" alt="Eleventh image" class="col-3">
+            <a href="images/11.jpg" data-caption="Once">
+                <img src="images/thumbnails/11.jpg" alt="Eleventh image">
             </a>
-            <a href="images/12.jpg" data-caption="Image caption 12">
-                <img src="images/thumbnails/12.jpg" alt="Twelveth image" class="col-4">
+            <a href="images/12.jpg" data-caption="Doce">
+                <img src="images/thumbnails/12.jpg" alt="Twelveth image">
             </a>
         </div>
     </main>
-
-
-
-
     <script src="js/baguetteBox.min.js" async></script>
-    <script>
-        window.addEventListener('load', function() {
-          baguetteBox.run('.gallery');
-        });
-    </script>
+    <script src="js/app.js"></script>
 </body>
 </html>
