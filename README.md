@@ -6,4 +6,4 @@
 
 Extra: Add a JavaScript search function. 
 
-Extra+: I added my own food photography photos 😋 
+Extra+: I added my own food photography photos 😋.
